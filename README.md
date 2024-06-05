@@ -1,16 +1,33 @@
 # React + Vite + TailwindCSS + DaisyUI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. It also includes a basic setup for [TailwindCSS](https://tailwindcss.com/) and [DaisyUI](https://daisyui.com/).
 
-Currently, two official plugins are available:
+## Getting Started
+### clone the repo
+git clone https://github.com/KPInc425/quick-stack-template.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-# Development
+### install dependencies
 yarn install
 
-## Tailwindcss
-yarn tailwindcss -i ./src/styles/editindex.css -o ./src/styles/staticindex.css --watch
+### start the dev server
 yarn dev
+
+### Start Tailwindcss Watcher
+yarn tailwindcss -i ./src/styles/editindex.css -o ./src/styles/staticindex.css --watch
+
+### Dependencies
+- React
+- Vite
+- ESLint
+- Prettier
+- TailwindCSS
+- DaisyUI
+
+## Features
+- [x] React
+- [x] Vite
+- [x] ESLint
+- [x] Prettier
+- [x] TailwindCSS
+- [x] DaisyUI
 
