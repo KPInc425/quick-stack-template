@@ -1,6 +1,11 @@
-# React + Vite + TailwindCSS + DaisyUI
+# React + Vite + TailwindCSS + DaisyUI + React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. It also includes a basic setup for [TailwindCSS](https://tailwindcss.com/) and [DaisyUI](https://daisyui.com/).
+This template provides a minimal setup to get [React](https://reactjs.org/) working in [Vite](https://vitejs.dev/) with HMR and some ESLint rules. It also includes a basic setup for [TailwindCSS](https://tailwindcss.com/) and [DaisyUI](https://daisyui.com/).
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Getting Started
 ### clone the repo
@@ -14,6 +19,9 @@ yarn dev
 
 ### Start Tailwindcss Watcher
 yarn tailwindcss -i ./src/styles/editindex.css -o ./src/styles/staticindex.css --watch
+
+#### Start the dev server and watcher at the same time (Require TLoader VSCode extension)
+ctrl + shift + p -> TLoader: Load Terminals
 
 ### Dependencies
 - React
@@ -30,4 +38,3 @@ yarn tailwindcss -i ./src/styles/editindex.css -o ./src/styles/staticindex.css -
 - [x] Prettier
 - [x] TailwindCSS
 - [x] DaisyUI
-
