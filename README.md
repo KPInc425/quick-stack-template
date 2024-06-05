@@ -1,6 +1,15 @@
-# React + Vite + TailwindCSS + DaisyUI
+# React + Vite + TailwindCSS + DaisyUI + React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. It also includes a basic setup for [TailwindCSS](https://tailwindcss.com/) and [DaisyUI](https://daisyui.com/). This feature branch also includes [React Router](https://reactrouter.com/) for routing.
+
+## Features
+- [x] React
+- [x] Vite
+- [x] ESLint
+- [x] Prettier
+- [x] React Router
+- [x] TailwindCSS
+- [x] DaisyUI
 
 Currently, two official plugins are available:
 
