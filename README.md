@@ -20,7 +20,8 @@ yarn dev
 ### Start Tailwindcss Watcher
 yarn tailwindcss -i ./src/styles/editindex.css -o ./src/styles/staticindex.css --watch
 
-#### Start the dev server and watcher at the same time (Require TLoader VSCode extension)
+### Optional
+#### Start the dev server and watcher at the same time (Requires TLoader VSCode extension)
 ctrl + shift + p -> TLoader: Load Terminals
 
 ### Dependencies
