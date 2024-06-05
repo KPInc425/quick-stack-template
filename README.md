@@ -8,13 +8,13 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Getting Started
-### clone the repo
+### Clone the repo
 git clone https://github.com/KPInc425/quick-stack-template.git
 
-### install dependencies
+### Install dependencies
 yarn install
 
-### start the dev server
+### Start the dev server
 yarn dev
 
 ### Start Tailwindcss Watcher
