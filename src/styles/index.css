@@ -1,0 +1,57 @@
+@import 'tailwindcss';
+@utility animation-delay-* {
+  animation-delay: --value(integer)ms;
+}
+
+@plugin "daisyui" {
+  themes: 
+      all;
+}
+@plugin "daisyui/theme" {
+  name: "robotbuilders";
+  default: false;
+  prefersdark: true;
+  color-scheme: dark;
+
+  /* AI-inspired color palette */
+  --color-base-100: oklch(15% 0.02 240);
+  --color-base-200: oklch(12% 0.03 240);
+  --color-base-300: oklch(10% 0.04 240);
+  --color-base-content: oklch(95% 0.01 240);
+  
+  /* Primary - Deep AI Blue */
+  --color-primary: oklch(55% 0.3 240);
+  --color-primary-content: oklch(98% 0.01 240);
+  
+  /* Secondary - Neural Network Purple */
+  --color-secondary: oklch(60% 0.25 280);
+  --color-secondary-content: oklch(98% 0.01 280);
+  
+  /* Accent - Quantum Green */
+  --color-accent: oklch(65% 0.25 160);
+  --color-accent-content: oklch(98% 0.01 160);
+  
+  /* Neutral - AI Gray */
+  --color-neutral: oklch(50% 0.05 240);
+  --color-neutral-content: oklch(98% 0.01 240);
+  
+  /* Status Colors */
+  --color-info: oklch(70% 0.2 220);
+  --color-info-content: oklch(98% 0.01 220);
+  --color-success: oklch(65% 0.25 140);
+  --color-success-content: oklch(98% 0.01 140);
+  --color-warning: oklch(80% 0.25 80);
+  --color-warning-content: oklch(20% 0.05 80);
+  --color-error: oklch(65% 0.3 30);
+  --color-error-content: oklch(98% 0.01 30);
+
+  /* Modern UI Elements */
+  --radius-selector: 0.75rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
